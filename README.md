@@ -1,32 +1,35 @@
-# 📊 Power BI Repository
+**SQL-Repository/
+│-- Queries/          # Basic SQL queries
+│-- Joins/            # INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+│-- Functions/        # SQL functions (Aggregate, Scalar, String, Date)
+│-- Procedures/       # Stored Procedures & Functions
+│-- Triggers/         # SQL Triggers
+│-- Projects/         # Real-world SQL projects
+│-- README.md         # Documentation**
 
-Welcome to the **Power BI Repository** 🎉  
-This repository contains **Power BI dashboards, reports, and data models** designed for data visualization, business insights, and analytics.
+**🚀 Topics Covered
 
----
+✅ Database Creation & Management
 
-## 📂 Repository Structure
-## 📂 Repository Structure
-Power-BI/
-│── README.md # Repo information & usage guide
-│── datasets/ # Sample datasets used in reports
-│── dashboards/ # Power BI .pbix files
-│── reports/ # Exported reports (PDF, images)
-│── docs/ # Documentation & screenshots
+✅ DDL (CREATE, DROP, ALTER, TRUNCATE)
 
+✅ DML (INSERT, UPDATE, DELETE)
 
----
+✅ DQL (SELECT, WHERE, GROUP BY, ORDER BY)
 
-## 🚀 Features
-- ✅ Interactive **Power BI Dashboards**
-- ✅ Data cleaning, modeling & visualization
-- ✅ Reports for **business analysis**
-- ✅ Ready-to-use **sample datasets**
-- ✅ Professional design for **real-world projects**
+✅ Joins & Subqueries
 
----
+✅ Views & Indexes
 
-## 🛠️ How to Use
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/Power-BI.git
+✅ Stored Procedures & Functions
+
+✅ Triggers & Transactions
+
+✅ SQL Optimization Techniques**
+
+**-- Find top 5 customers with highest purchase
+SELECT customer_id, SUM(amount) AS total_purchase
+FROM orders
+GROUP BY customer_id
+ORDER BY total_purchase DESC
+LIMIT 5;**
